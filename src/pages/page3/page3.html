@@ -1,0 +1,18 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>Page Three</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content>
+    <ion-row>
+        <video id="_vid" controls="controls" preload="metadata" autoplay="false" webkit-playsinline="webkit-playsinline" class="videoPlayer">
+            <source src="http://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4" type="video/mp4" />
+        </video>
+    </ion-row>
+    <ion-row>
+        <button (click)="onGoToClick()">Click Here</button>
+    </ion-row>
+</ion-content>
