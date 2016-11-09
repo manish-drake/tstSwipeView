@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-
 @Component({
-    selector: 'swipeView',
-    templateUrl: 'page3.html'
+    selector: 'video-component',
+    templateUrl: 'video.component.html'
 })
-export class Page3{
+export class VideoComponent{
 
     vidSrc = "assets/videos/sample1.mp4";
 
